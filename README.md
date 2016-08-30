@@ -7,6 +7,7 @@
 [![Javadoc](https://javadoc-emblem.rhcloud.com/doc/org.zalando/money-validation/badge.svg)](http://www.javadoc.io/doc/org.zalando/money-validation)
 [![Release](https://img.shields.io/github/release/zalando/money-validation.svg)](https://github.com/zalando/money-validation/releases)
 [![Maven Central](https://img.shields.io/maven-central/v/org.zalando/money-validation.svg)](https://maven-badges.herokuapp.com/maven-central/org.zalando/money-validation)
+[![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/zalando/money-validation/master/LICENSE)
 
 *Money Validation* is a collection of [Bean Validation](http://beanvalidation.org/) constraint validators that add
 support for [Java Money](https://github.com/JavaMoney/jsr354-api) data types.
