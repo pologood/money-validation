@@ -20,7 +20,7 @@ final class Product {
     @Zero
     private final MonetaryAmount tax;
 
-    public Product(MonetaryAmount price, MonetaryAmount discountedPrice, MonetaryAmount discount, MonetaryAmount priceReduction, MonetaryAmount tax) {
+    public Product(final MonetaryAmount price, final MonetaryAmount discountedPrice, final MonetaryAmount discount, final MonetaryAmount priceReduction, final MonetaryAmount tax) {
         this.price = price;
         this.discountedPrice = discountedPrice;
         this.discount = discount;

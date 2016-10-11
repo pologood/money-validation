@@ -6,6 +6,10 @@ import javax.validation.ConstraintValidatorContext;
 import javax.validation.constraints.Max;
 import java.math.BigDecimal;
 
+/**
+ * @deprecated contributed to Hibernate Validator
+ */
+@Deprecated
 public final class MonetaryAmountMaxValidator implements ConstraintValidator<Max, MonetaryAmount> {
 
     private BigDecimal maxValue;

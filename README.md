@@ -12,6 +12,10 @@
 *Money Validation* is a collection of [Bean Validation](http://beanvalidation.org/) constraint validators that add
 support for [Java Money](https://github.com/JavaMoney/jsr354-api) data types.
 
+- **Status**: This project is **deprecated** in favor of
+    [Hibernate Validator](https://github.com/hibernate/hibernate-validator/pull/534) to which we contributed any
+    relevant parts regarding money validation.
+
 ## Features
 
 - enables you to validate monetary amounts

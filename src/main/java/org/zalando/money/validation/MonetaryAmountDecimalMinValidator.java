@@ -6,6 +6,10 @@ import javax.validation.ConstraintValidatorContext;
 import javax.validation.constraints.DecimalMin;
 import java.math.BigDecimal;
 
+/**
+ * @deprecated contributed to Hibernate Validator
+ */
+@Deprecated
 public final class MonetaryAmountDecimalMinValidator implements ConstraintValidator<DecimalMin, MonetaryAmount> {
 
     private BigDecimal minValue;
@@ -25,7 +29,7 @@ public final class MonetaryAmountDecimalMinValidator implements ConstraintValida
         }
 
         final BigDecimal amount = value.getNumber().numberValueExact(BigDecimal.class);
-        int result = amount.compareTo(minValue);
+        final int result = amount.compareTo(minValue);
         return inclusive ? result >= 0 : result > 0;
     }
 
